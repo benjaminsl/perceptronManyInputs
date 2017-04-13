@@ -1,0 +1,56 @@
+18:
+
+*keep weights the same instead of changing with every new dataset
+ 
+19: 
+* calculate error and have function checkOutput() return the rror
+* show the user the error if it is anything besides 0
+
+20:
+* started update weight function
+
+21:
+* completed update weight function
+* put update weight function in main.c
+* changed perceptron.c to main.c and updated makefile
+
+22:
+* added documentation to main.c
+* fixed function call of updateWeights in main
+  	(arguments were in wrong order)
+
+23:
+* renamed update.c to functions.c and update.h to function.h
+  	and updated all files to work with this change
+* made getInput only have one argument because I'm no
+    longer getting input form the user
+* moved all function prototypes to functions.h
+* moved all function definitons to functions.c
+
+24:
+* made it so program loops through data sets until all
+		data sets are classified correctly
+* tells user final weights
+* added linke to tutorial on perceptron in main.c
+
+percpetron 2 -----------------------------------------------
+-------------------------------------------------------------
+1:
+	* changed input and weight variables to arrays
+
+4:
+  * modified another loop to take input/weights vectors instead of scalars
+
+5:
+	* made sure program was working right with weight 1 = .9 and weight 2 = .8
+	* changed more lines to take vectors instead of scalars
+
+6:
+	* all changes from scalar variables to vector variables should be made now
+
+7:
+	* missed a few changes in 6. Did them in 7
+
+8:
+	* made a training data set with 3 inputs 
+  * tried out 3 inputs (it worked!)
